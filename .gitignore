@@ -1,0 +1,99 @@
+# ============================
+# ArchISO build output
+# ============================
+
+iso/**/out/
+iso/**/work/
+iso/**/pkg/
+iso/**/cache/
+
+# mkarchiso temporary directories
+work/
+out/
+
+# ============================
+# Pacman & Arch tools
+# ============================
+
+*.pkg.tar.zst
+*.pkg.tar.xz
+*.sig
+pacman.log
+
+# ============================
+# Kernel / initramfs artifacts
+# ============================
+
+initramfs-*.img
+vmlinuz-*
+*.img
+
+# ============================
+# Logs & temp files
+# ============================
+
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*~
+
+# ============================
+# Mount points
+# ============================
+
+mnt/
+mount/
+media/
+
+# ============================
+# Editor / IDE junk
+# ============================
+
+.vscode/
+.idea/
+*.code-workspace
+*.kate-swp
+*.kate-swp.*
+
+# ============================
+# OS / file manager junk
+# ============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Cache & runtime
+# ============================
+
+.cache/
+__pycache__/
+*.pyc
+
+# ============================
+# Downloaded ISOs
+# ============================
+
+*.iso
+
+# ============================
+# Credentials / secrets (safety)
+# ============================
+
+*.key
+*.pem
+*.crt
+*.env
+
+# ============================
+# Backup / recovery
+# ============================
+
+*.old
+*.orig
+*.backup
+
