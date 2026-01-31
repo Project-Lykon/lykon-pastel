@@ -1,2 +1,7 @@
 arch-install-scripts
 base
+linux
+linux-firmware
+systemd
+arch-install-scripts
+base

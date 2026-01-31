@@ -1,0 +1,5 @@
+
+BINARIES=()
+FILES=()
+
+HOOKS=(base udev plymouth autodetect modconf block filesystems keyboard fsck)

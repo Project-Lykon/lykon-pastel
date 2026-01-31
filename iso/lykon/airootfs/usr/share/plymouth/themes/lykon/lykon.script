@@ -1,0 +1,22 @@
+screen_w = Window.GetWidth();
+screen_h = Window.GetHeight();
+
+logo = Image("logo.png");
+lw = logo.GetWidth();
+lh = logo.GetHeight();
+
+logo_x = (screen_w - lw) / 2;
+logo_y = (screen_h - lh) / 2 - 30;
+
+sprite = Sprite(logo);
+sprite.SetPosition(logo_x, logo_y, 0);
+
+progress = ProgressBar();
+progress.SetPosition(
+  screen_w / 2 - 140,
+  logo_y + lh + 20,
+  280,
+  4
+);
+
+progress.SetColor(1, 1, 1);

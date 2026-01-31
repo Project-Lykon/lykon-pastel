@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Lykon
+Description=Lykon Pastel
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/lykon
+ScriptFile=/usr/share/plymouth/themes/lykon/lykon.script
