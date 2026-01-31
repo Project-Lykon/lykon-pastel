@@ -1,7 +1,7 @@
 screen_w = Window.GetWidth();
 screen_h = Window.GetHeight();
 
-logo = Image("logo.png");
+logo = Image("lykon_logo.png");
 lw = logo.GetWidth();
 lh = logo.GetHeight();
 
